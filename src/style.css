@@ -46,6 +46,9 @@ header button {
   color: #272044;
   margin-top: 32px;
 }
+header button:hover {
+  cursor: pointer;
+}
 @media (max-width: 000px) {
   header {
     padding: 60px 0;
