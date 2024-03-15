@@ -67,6 +67,7 @@ header button:hover {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
 }
 footer {
   margin: 0;
@@ -90,9 +91,7 @@ p {
   color: #fff;
   opacity: 0.6;
 }
-#about-me {
-  margin-right: 20px;
-}
+
 footer h3 {
   font-weight: 700;
   font-size: 20px;
