@@ -70,10 +70,14 @@ main {
 .grid-1-2-2 {
   grid-template-columns: 1fr 2fr 2fr;
 }
-.why-lisbon img {
-  width: 570px;
-  height: 461px;
+.card .grid {
+  grid-gap: 0;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 .why-lisbon h1 {
   font-weight: 700;
   font-size: 40px;
@@ -96,7 +100,7 @@ main {
   margin: 0;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 .grid-1-2-2 {
   grid-template-columns: 1fr 2fr 2fr;
@@ -216,5 +220,11 @@ footer li {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+  .card img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
