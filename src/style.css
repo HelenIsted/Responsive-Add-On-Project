@@ -6,7 +6,7 @@ section {
   max-width: 100%;
   padding: 100px 100px 92px 100px;
 }
-.secondary .tertiary {
+.secondary {
   background-color: #f8f8f8;
 }
 header {
@@ -58,7 +58,6 @@ header button:hover {
   grid-gap: 64px;
 }
 main {
-  background-color: #fff;
   color: #272044;
 }
 .grid-1-1 {
